@@ -1,7 +1,7 @@
 // @refresh reload
 import { Suspense } from "solid-js";
 import {
-  A,
+  Route,
   Body,
   ErrorBoundary,
   FileRoutes,
@@ -13,6 +13,7 @@ import {
   Title,
 } from "solid-start";
 import "./root.css";
+import Home from "./components/Home";
 
 export default function Root() {
   return (
@@ -26,7 +27,7 @@ export default function Root() {
         <Suspense>
           <ErrorBoundary>
             <Routes>
-              <FileRoutes />
+              <Route path="*" component={Home}/>
             </Routes>
           </ErrorBoundary>
         </Suspense>

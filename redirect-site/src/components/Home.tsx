@@ -1,5 +1,5 @@
 import { A } from "@solidjs/router";
-import "./index.css";
+import "./Home.css";
 
 export default function Home() {
   return (
