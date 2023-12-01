@@ -1,5 +1,3 @@
-import { Title } from "solid-start";
-import Counter from "~/components/Counter";
 import { A } from "@solidjs/router";
 import "./index.css";
 
