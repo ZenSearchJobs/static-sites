@@ -4,7 +4,6 @@ import {
   Route,
   Body,
   ErrorBoundary,
-  FileRoutes,
   Head,
   Html,
   Meta,
