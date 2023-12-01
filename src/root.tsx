@@ -18,15 +18,21 @@ export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>SolidStart - Bare</Title>
+        <Title>We've Moved! | Zensearch Jobs</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="/about">About</A>
+            <main>
+              <div id="container">
+                <h2>🎉 Jobcrawler has become ZenSearch! 🚀</h2>
+                <p>
+                  <A href="https://zensearch.jobs">Visit us at our new home to keep finding great jobs for you</A>
+                </p>
+              </div>
+            </main>
             <Routes>
               <FileRoutes />
             </Routes>
