@@ -1,19 +1,17 @@
 import { Title } from "solid-start";
 import Counter from "~/components/Counter";
+import { A } from "@solidjs/router";
+import "./index.css";
 
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
+    <div id="container">
+      <h2>🎉 Jobcrawler has become ZenSearch! 🚀</h2>
       <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
+        <A href="https://zensearch.jobs">Visit us at our new home to keep finding great jobs for you</A>
       </p>
-    </main>
+    </div>
+  </main>
   );
 }
